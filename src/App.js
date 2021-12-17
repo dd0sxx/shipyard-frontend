@@ -1,5 +1,6 @@
 import Nav from './Nav'
 import Boat from './Boat'
+import Create from './Create'
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <div className='landing'>
         <Nav></Nav>
       </div>
-      <div name="creators"></div>
+      <Create></Create>
     </div>
   );
 }
