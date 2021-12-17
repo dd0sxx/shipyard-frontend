@@ -20,8 +20,8 @@ function Nav() {
         <div style={navOptionsStyle}>Developers</div>
         <div style={navOptionsStyle}>Collabs</div>
         <div style={navOptionsStyle}>Contact</div>
-        <div style={{backgroundImage: `url("${Twitter}")`, height: 15, width: 15}}></div>
-        <div></div>
+        <div className='background-center' style={{backgroundImage: `url("${Twitter}")`, height: 15, width: 15}}></div>
+        <div className='background-center' style={{backgroundImage: `url("${Discord}")`, height: 15, width: 15}}></div>
       </div>
     </div>
   );
