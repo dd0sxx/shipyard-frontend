@@ -17,11 +17,9 @@ function Nav() {
       <Logo></Logo>
       <div style={{display: 'flex', alignItems: 'center'}}>
         <div className='pointer' style={navOptionsStyle}>Creators</div>
-        <div className='pointer' style={navOptionsStyle}>Developers</div>
-        <div className='pointer' style={navOptionsStyle}>Collabs</div>
         <a href='https://twitter.com/shipyard_' target='_blank' className='background-center' style={{backgroundImage: `url("${Twitter}")`, height: 25, width: 25, margin: 10}}/>
         <a href='https://discord.gg/NPbwsCxkHw' target='_blank' className='background-center' style={{backgroundImage: `url("${Discord}")`, height: 25, width: 25, margin: 10}}/>
-        <a href='https://ymvvxnxkkir.typeform.com/to/hIUIQHzB' target='_blank' className='round-button pink-hover' style={{width: 75, height: 25, border: '1px solid navy', lineHeight: 1.5, fontWeight: '300', marginLeft: 10, textDecoration: 'none', color: 'black'}}>Apply</a>
+        <a href='https://hackerdao.typeform.com/shipyardNFT' target='_blank' className='round-button pink-hover' style={{width: 75, height: 25, border: '1px solid navy', lineHeight: 1.5, fontWeight: '300', marginLeft: 10, textDecoration: 'none', color: 'black'}}>Apply</a>
       </div>
     </div>
   );
