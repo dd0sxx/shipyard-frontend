@@ -1,4 +1,3 @@
-import { div } from 'prelude-ls';
 import React from 'react'
 
 function Logo () {
@@ -7,11 +6,11 @@ function Logo () {
 
   return (
     <div className="Logo" style={{
-        fontSize: 72, 
+        fontSize: 36, 
         fontFamily: 'helvetica', 
-        textAlign: 'center', 
-        padding: '10vh', 
-        color: 'white',
+        textAlign: 'left', 
+        padding: '5vh', 
+        color: 'black',
         }}>Ship Yard Studios</div>
   );
 }

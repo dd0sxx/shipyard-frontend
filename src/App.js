@@ -1,10 +1,12 @@
-import Logo from './Logo'
+import Nav from './Nav'
+import Boat from './Boat'
 
 function App() {
   return (
     <div className="App">
-      <Boat></Boat>
-      <Logo></Logo>
+      <Boat></Boat> 
+      {/* everything below is not absolutely positioned */}
+      <Nav></Nav>
     </div>
   );
 }
