@@ -14,9 +14,18 @@ body {
 .round-button {
     border-radius: 15px;
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
+
 .round-button:hover {
     cursor: pointer;
+    
+}
+
+.pink-hover:hover {
+    background-color: rgba(255, 25, 136, 0.811);
+    transition: 0.3s;
 }
 
 .pointer:hover {
