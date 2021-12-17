@@ -4,3 +4,9 @@ body {
     height: 100vh;
     width: 100vw;
 }
+
+.background-center {
+    background-size: 'contain';
+    background-position: 'center';
+    background-repeat: 'no-repeat';
+}

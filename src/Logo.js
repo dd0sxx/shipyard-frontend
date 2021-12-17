@@ -9,7 +9,6 @@ function Logo () {
         fontSize: 36, 
         fontFamily: 'helvetica', 
         textAlign: 'left', 
-        padding: '5vh', 
         color: 'black',
         }}>Ship Yard Studios</div>
   );
