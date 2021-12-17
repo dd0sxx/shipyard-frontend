@@ -1,7 +1,7 @@
 body {
     background: rgb(176,253,255);
-    background: linear-gradient(180deg, rgba(176,253,255,1) 0%, rgba(0,243,255,1) 51%, rgba(0,230,255,1) 51%, rgba(0,119,255,1) 100%);
-    height: 100vh;
+    background: linear-gradient(180deg, rgba(176,253,255,1) 0%, rgba(0,243,255,1) 25%, rgba(0,230,255,1) 25%, rgba(0,119,255,1) 50%, rgb(0, 43, 93) 75%, rgb(0, 14, 30) 100%);
+    height: 200vh;
     width: 100vw;
 }
 
@@ -30,4 +30,9 @@ body {
 
 .pointer:hover {
     cursor: pointer;
+}
+
+.landing {
+    height: 100vh;
+    width: 100vw;
 }

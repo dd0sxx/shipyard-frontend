@@ -6,7 +6,10 @@ function App() {
     <div className="App">
       <Boat></Boat> 
       {/* everything below is not absolutely positioned */}
-      <Nav></Nav>
+      <div className='landing'>
+        <Nav></Nav>
+      </div>
+      <div name="creators"></div>
     </div>
   );
 }
