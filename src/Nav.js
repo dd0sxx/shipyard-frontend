@@ -13,15 +13,17 @@ function Nav() {
         fontWeight: '300'
     }
   return (
-    <div className="Nav" style={{display: 'flex', justifyContent: 'space-between', padding: '5vh'}}>
+    <div className="Nav" style={{display: 'flex', justifyContent: 'space-between', padding: '5vh 10vw'}}>
       <Logo></Logo>
       <div style={{display: 'flex', alignItems: 'center'}}>
-        <div style={navOptionsStyle}>Creators</div>
-        <div style={navOptionsStyle}>Developers</div>
-        <div style={navOptionsStyle}>Collabs</div>
-        <div style={navOptionsStyle}>Contact</div>
-        <div className='background-center' style={{backgroundImage: `url("${Twitter}")`, height: 15, width: 15}}></div>
-        <div className='background-center' style={{backgroundImage: `url("${Discord}")`, height: 15, width: 15}}></div>
+        <div className='pointer' style={navOptionsStyle}>Creators</div>
+        <div className='pointer' style={navOptionsStyle}>Developers</div>
+        <div className='pointer' style={navOptionsStyle}>Collabs</div>
+        <a href='https://twitter.com/shipyard_' target='_blank' className='background-center' style={{backgroundImage: `url("${Twitter}")`, height: 25, width: 25, margin: 10}}/>
+        <a href='' target='_blank' className='background-center' style={{backgroundImage: `url("${Discord}")`, height: 25, width: 25, margin: 10}}/>
+        <div className='round-button'>
+
+        </div>
       </div>
     </div>
   );
