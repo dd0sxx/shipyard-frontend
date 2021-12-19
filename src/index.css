@@ -23,8 +23,8 @@ body {
     
 }
 
-.pink-hover:hover {
-    background-color: rgba(255, 25, 136, 0.811);
+.red-hover:hover {
+    background-color: #c22727;
     transition: 0.3s;
 }
 
