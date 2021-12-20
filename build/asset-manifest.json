@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2094b9e3.css",
+    "main.js": "/static/js/main.e5d67f4d.js",
+    "static/media/oilys.png": "/static/media/oilys.6693a8848dbb1ccf5f55.png",
+    "static/media/NunitoSans-Regular.ttf": "/static/media/NunitoSans-Regular.25d5a42e25da2f3ed7f4.ttf",
+    "static/media/Quicksand-VariableFont_wght.ttf": "/static/media/Quicksand-VariableFont_wght.92e1d0f3321b53e20d2b.ttf",
+    "static/media/Dosis-VariableFont_wght.ttf": "/static/media/Dosis-VariableFont_wght.f4fe0ac26c24e981d2c7.ttf",
+    "static/media/discord.png": "/static/media/discord.d6120e2411413378177f.png",
+    "static/media/twitter.png": "/static/media/twitter.b858ce04a64972fba90c.png",
+    "static/media/Assistant-VariableFont_wght.ttf": "/static/media/Assistant-VariableFont_wght.8260db3b313ce1ff6e7f.ttf",
+    "static/media/shipyard-gif2.gif": "/static/media/shipyard-gif2.0c6cc5b28eb9a12cdc87.gif",
+    "static/media/Abel-Regular.ttf": "/static/media/Abel-Regular.3843f456cf56d275baf6.ttf",
+    "static/media/creature.jpeg": "/static/media/creature.02dc700143e60f703687.jpeg",
+    "static/media/strange.jpeg": "/static/media/strange.f386df0c8069c63f008b.jpeg",
+    "index.html": "/index.html",
+    "main.2094b9e3.css.map": "/static/css/main.2094b9e3.css.map",
+    "main.e5d67f4d.js.map": "/static/js/main.e5d67f4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2094b9e3.css",
+    "static/js/main.e5d67f4d.js"
+  ]
+}
