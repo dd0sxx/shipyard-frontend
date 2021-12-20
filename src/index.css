@@ -28,9 +28,17 @@ body {
     
 }
 
-.red-hover:hover {
-    background-color: #f04937;
+.expand-hover{
     transition: 0.3s;
+    background-color: #060078c4;
+    width: 75px;
+}
+
+.expand-hover:hover {
+    transition: 0.3s;
+    background-color: #060078;
+    width: 90px;
+    margin-right: -7.5px;
 }
 
 .pointer:hover {
