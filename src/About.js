@@ -19,7 +19,7 @@ function About () {
                 <a href="/promospace/detail" style={{textDecoration: 'none'}}>
                     <div className='background-center' style={{backgroundImage: `url("${Logan}")`, height: 150, width: 150, borderRadius: '50%'}}/>
                     <div className="small-text assistant" style={{textAlign: 'center',color: 'rgb(225, 218, 207)', width: 150, padding: 0, marginTop: 15}}>Logan</div>
-                    <div className="small-text abel" style={{textAlign: 'center',fontSize: 16, marginTop: 10, width: 150, padding: 0, paddingBottom: 5}}>dev</div>
+                    <div className="small-text abel" style={{textAlign: 'center',fontSize: 16, marginTop: 10, width: 150, padding: 0, paddingBottom: 5}}>Boss</div>
                 </a>
                 <a href="/promospace/detail" style={{textDecoration: 'none'}}>
                     <div className='background-center' style={{backgroundImage: `url("${Shipyard}")`, height: 150, width: 150, borderRadius: '50%'}}/>
