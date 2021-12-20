@@ -22,6 +22,16 @@ p {
     margin-top: 10vh;
 }
 
+.nav-hover:hover {
+    border-bottom: 1px solid rgb(42, 43, 45);
+    transition: 0.3s;
+}
+
+.nav-hover{
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
+}
+
 
 .background-center {
     background-size: contain;
@@ -110,6 +120,15 @@ p {
     display: flex;
     justify-content: space-between;
 }
+
+.footer {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    filter: invert(1);
+}
+
 
 @font-face {
     font-family: "nunito";

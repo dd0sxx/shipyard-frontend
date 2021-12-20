@@ -4,6 +4,8 @@ import Boat from './Boat'
 import ReturnToTop from './ReturnToTop'
 import Banner from './Banner'
 import Create from './Create'
+import Apply from './Apply'
+import Footer from './Footer'
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
         <Banner></Banner>
       </div>
       <Create></Create>
+      <Apply></Apply>
+      <Footer></Footer>
     </div>
   );
 }
