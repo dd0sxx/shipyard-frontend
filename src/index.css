@@ -46,10 +46,6 @@ body {
     
 }
 
-.create * { 
-    color: rgb(225, 218, 207);
-}
-
 .small-text {   
     padding: 10px 10vw; 
     font-family: Arial, Helvetica, sans-serif;
@@ -57,23 +53,69 @@ body {
     font-size: 20px;
     font-weight: lighter;
     text-align: left;
-    
+    color: rgb(184, 177, 168);
 }
 
 .big-text {
     padding: 10px 10vw; 
-    font-size: 92px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: left;
+    line-height: 89%;
+    font-size: 132px;
     letter-spacing: -2px;
+    font-weight: 800;
+    color: rgb(225, 218, 207);
 }
 
 .colab {
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 .flex {
     display: flex;
     justify-content: space-between;
+}
+
+@font-face {
+    font-family: "nunito";
+    src: url('./assets/Nunito_Sans/NunitoSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "quicksand";
+    src: url('./assets/Quicksand/Quicksand-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: "dosis";
+    src: url('./assets/Dosis/Dosis-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: "assistant";
+    src: url('./assets/Assistant/Assistant-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: "abel";
+    src: url('./assets/Abel/Abel-Regular.ttf');
+}
+
+.nunito {
+    font-family: 'nunito';
+}
+
+.quicksand {
+    font-family: 'quicksand';
+}
+
+.dosis {
+    font-family: 'dosis';
+}
+
+.assistant {
+    font-family: 'assistant';
+}
+
+.abel {
+    font-family: 'abel';
 }
