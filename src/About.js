@@ -12,17 +12,17 @@ function About () {
             <div className="flex" style={{width: '60vw', margin: 'auto', paddingTop: '5vh'}}>
                 <div>
                     <div className='background-center' style={{backgroundImage: `url("${dd0sxx}")`, height: 150, width: 150, borderRadius: '50%'}}/>
-                    <div className="small-text assistant" style={{textAlign: 'center',color: 'rgb(225, 218, 207)', marginTop: 15, width: 200, padding: 0}}>dd0sxx</div>
+                    <div className="small-text assistant" style={{textAlign: 'center',color: 'rgb(225, 218, 207)', marginTop: 15, width: 150, padding: 0}}>dd0sxx</div>
                     <div className="small-text abel" style={{textAlign: 'center',fontSize: 16, marginTop: 10, width: 150, padding: 0, paddingBottom: 5}}>Dev</div>
                 </div>
                 <div>
                     <div className='background-center' style={{backgroundImage: `url("${Logan}")`, height: 150, width: 150, borderRadius: '50%'}}/>
-                    <div className="small-text assistant" style={{textAlign: 'center',color: 'rgb(225, 218, 207)', marginTop: 15, width: 200, padding: 0}}>Logan</div>
+                    <div className="small-text assistant" style={{textAlign: 'center',color: 'rgb(225, 218, 207)', marginTop: 15, width: 150, padding: 0}}>Logan</div>
                     <div className="small-text abel" style={{textAlign: 'center',fontSize: 16, marginTop: 10, width: 150, padding: 0, paddingBottom: 5}}>dev</div>
                 </div>
                 <div>
                     <div className='background-center' style={{backgroundImage: `url("${Shipyard}")`, height: 150, width: 150, borderRadius: '50%'}}/>
-                    <div className="small-text assistant" style={{textAlign: 'center',color: 'rgb(225, 218, 207)', marginTop: 15, width: 200, padding: 0}}>Shipyard DAO</div>
+                    <div className="small-text assistant" style={{textAlign: 'center',color: 'rgb(225, 218, 207)', marginTop: 15, width: 150, padding: 0}}>Shipyard DAO</div>
                     <div className="small-text abel" style={{textAlign: 'center',fontSize: 16, marginTop: 10, width: 150, padding: 0, paddingBottom: 5}}>Parent</div>
                 </div>
             </div>
