@@ -14,7 +14,6 @@ function Nav() {
     }
 
     let Link = Scroll.Link;
-    let scroll = Scroll.animateScroll;
 
   return (
     <div className="Nav" style={{display: 'flex', justifyContent: 'space-between', padding: '5vh 10vw'}}>
