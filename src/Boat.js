@@ -9,7 +9,7 @@ function Boat () {
       height: '30vh',
       width: '30vw',
       position: 'absolute',
-      top: '62vh',
+      top: '60vh',
       left: '35vw',
     }}></div>
   );
