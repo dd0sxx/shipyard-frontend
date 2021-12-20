@@ -74,7 +74,6 @@ p {
 
 .small-text {   
     padding: 20px 11vw; 
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 20px;
     font-weight: lighter;
@@ -90,6 +89,16 @@ p {
     font-size: 132px;
     letter-spacing: -2px;
     font-weight: 800;
+    color: rgb(225, 218, 207);
+}
+
+.medium-text {
+    padding: 20px 10vw; 
+    text-align: left;
+    line-height: 89%;
+    font-size: 36px;
+    letter-spacing: -2px;
+    font-weight: 500;
     color: rgb(225, 218, 207);
 }
 

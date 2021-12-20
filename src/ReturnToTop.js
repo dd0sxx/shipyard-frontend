@@ -18,7 +18,8 @@ function ReturnToTop ({rttColor, setRttColor}) {
         left: '90vw',
         fontFamily: 'quicksand',
         transition: '1s',
-        color: rttColor
+        color: rttColor,
+        cursor: 'pointer'
         }}
         onClick={handleClick}
         >Return To Top ↑ </div>

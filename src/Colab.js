@@ -1,24 +1,30 @@
 import Creature from './assets/creature.jpeg'
 import Oilys from './assets/oilys.png'
 import Strange from './assets/strange.jpeg'
+import Twitter from './assets/twitter-tan.png'
+import Etherscan from './assets/etherscan-tan.png'
 
 function Colab () {
 
     let collaborations = [
-        {name: 'Creature World NFT', creator: 'Danny Cole', img: Creature},
-        {name: 'Oilys', creator: 'Logan Larkin', img: Oilys},
-        {name: 'Lost Souls', creator: 'Strange', img: Strange},
+        {name: 'Creature World NFT', creator: 'Danny Cole', img: Creature, etherscan: 'https://etherscan.io/address/0xc92ceddfb8dd984a89fb494c376f9a48b999aafc', twitter: 'https://twitter.com/creatureNFT'},
+        {name: 'Oilys', creator: 'Logan Larkin', img: Oilys, etherscan: 'https://etherscan.io/address/0x49623caec21b1ff5d04d7bf7b71531369a69bce4', twitter: 'https://twitter.com/logan_larkin'},
+        {name: 'Lost Souls', creator: 'Strange', img: Strange, etherscan: 'https://etherscan.io/address/0xd9af5e6f1f4ca776d763c5701d016a6a1fa68d7b', twitter: 'https://twitter.com/_StrangeW0rld_'},
     ]
     
     return (
         <div className="colab">
-            <div className="small-text abel">Projects we have shipped: </div>
+            <div className="medium-text assistant">Projects we have shipped: </div>
             <div className="flex" style={{width: '60vw', margin: 'auto', paddingTop: '5vh'}}>
             {collaborations.map(item => (
                 <div style={{alignItems: 'center', display: 'flex', flexDirection: 'column'}}>
                     <div className='background-center' style={{backgroundImage: `url("${item.img}")`, height: 150, width: 150, borderRadius: '50%'}}/>
                     <div className="small-text assistant" style={{textAlign: 'center',color: 'rgb(225, 218, 207)', marginTop: 15, width: 200, padding: 0}}>{item.name}</div>
-                    <div className="small-text abel" style={{textAlign: 'center',fontSize: 16, marginTop: 10, width: 150, padding: 0}}>by {item.creator}</div>
+                    <div className="small-text abel" style={{textAlign: 'center',fontSize: 16, marginTop: 10, width: 150, padding: 0, paddingBottom: 5}}>by {item.creator}</div>
+                    <div className='flex'>
+                        <a href={item.etherscan} target='_blank' className='background-center' style={{backgroundImage: `url("${Etherscan}")`, height: 25, width: 25, margin: 10}}/>
+                        <a href={item.twitter} target='_blank' className='background-center' style={{backgroundImage: `url("${Twitter}")`, height: 25, width: 25, margin: 10}}/>
+                    </div>
                 </div>
             ))}
             </div>
