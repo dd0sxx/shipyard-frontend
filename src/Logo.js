@@ -10,7 +10,7 @@ function Logo () {
         fontFamily: 'quicksand', 
         textAlign: 'left', 
         color: 'black',
-        }}>Ship Yard Studios</div>
+        }}>Shipyard Studios</div>
   );
 }
 
