@@ -234,6 +234,13 @@ p {
     width: '33vw'
 }
 
+.Boat {
+    height: 30vh;
+    width: 30vw;
+    top: 65vh;
+    left: 35vw;
+}
+
 
 @media (max-width : 1450px) and (min-width : 1110px) {
     .return-to-top {
@@ -284,6 +291,10 @@ p {
 
 @media (max-width : 581px) {
 
+    body {
+        background: linear-gradient(180deg, rgb(246, 255, 255) 0%, rgba(176,253,255,1) 5%, rgba(0,243,255,1) 26.4%, rgba(0,119,255,1) 26.4%, rgb(0, 0, 0) 100%);
+    }
+
     .Nav {
         width: 100vw;
     }
@@ -313,6 +324,13 @@ p {
 
     .banner {
         margin-top: 0vh;
+    }
+
+    .Boat {
+        height: 60vh;
+        width: 60vw;
+        top: 50vh;
+        left: 50vw;
     }
 
 }

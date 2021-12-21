@@ -6,11 +6,7 @@ function Boat () {
     <div className="Boat background-center" style={{
       backgroundImage: `url("${BoatGif}")`,
       transform: 'scaleX(-1)',
-      height: '30vh',
-      width: '30vw',
       position: 'absolute',
-      top: '65vh',
-      left: '35vw',
     }}></div>
   );
 }
