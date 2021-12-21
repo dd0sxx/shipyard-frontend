@@ -206,9 +206,114 @@ p {
     left: 90vw;
 }
 
+.Logo {
+    font-size: 36px;
+}
+
+.nav-text {
+        margin: 10;
+        font-size: 16;
+        font-family: 'quicksand';
+        text-align: center;
+        font-weight: 300;
+        text-decoration: none;
+        padding: 0px 10px;
+        color: rgb(42, 43, 45)
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+}
+
+.circle-text {
+    width: 150px;
+}
+
+.banner-text {
+    width: '33vw'
+}
+
+
 @media (max-width : 1450px) and (min-width : 1110px) {
     .return-to-top {
         text-align: right;
     }
+}
+
+@media (max-width : 1110px) {
+    body {
+        background: linear-gradient(180deg, rgb(246, 255, 255) 0%, rgba(176,253,255,1) 5%, rgba(0,243,255,1) 26%, rgba(0,119,255,1) 26%, rgb(0, 0, 0) 100%);
+    }
+
+    .App {
+        background: none;
+    } 
+
+    .big-text {
+        line-height: 100%;
+        font-size: 100px;
+    }
+}
+
+@media (max-width : 935px) {
+
+    .big-text {
+        line-height: 100%;
+        font-size: 72px;
+    }
+
+    .circle {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .circle-text {
+        width: 100px;
+    }
+
+    .footer {
+        margin-top: 5vh;
+    }
+
+    .banner {
+        margin-top: 5vh;
+    }
+
+}
+
+@media (max-width : 581px) {
+
+    .Nav {
+        width: 100vw;
+    }
+
+    .right-nav {
+        flex-wrap: wrap;
+        max-width: 45vw;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .big-text {
+        line-height: 100%;
+        font-size: 54px;
+    }
+
+    .medium-text {
+        
+    }
+
+    .small-text {   
+        padding: 0px 11vw;
+        font-size: 14px;
+        width: 66vw;
+        margin: 0;
+    }
+
+    .banner {
+        margin-top: 0vh;
+    }
+
 }
     

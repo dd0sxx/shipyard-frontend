@@ -6,7 +6,6 @@ function Logo () {
 
   return (
     <div className="Logo" style={{
-        fontSize: 36, 
         fontFamily: 'quicksand', 
         textAlign: 'left', 
         color: 'black',

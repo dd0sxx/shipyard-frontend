@@ -12,19 +12,19 @@ function About () {
             <div className="flex" style={{width: '60vw', margin: 'auto', padding: '5vh'}}>
 
                 <a href="https://twitter.com/dd0sxx" target='_blank' style={{textDecoration: 'none'}}>
-                    <div className='background-center' style={{backgroundImage: `url("${dd0sxx}")`, height: 150, width: 150, borderRadius: '50%'}}/>
-                    <div className="small-text assistant" style={{textAlign: 'center',color: 'rgb(225, 218, 207)', width: 150, padding: 0, marginTop: 15}}>dd0sxx</div>
-                    <div className="small-text abel" style={{textAlign: 'center',fontSize: 16, marginTop: 10, width: 150, padding: 0, paddingBottom: 5}}>Dev</div>
+                    <div className='background-center circle' style={{backgroundImage: `url("${dd0sxx}")`, borderRadius: '50%'}}/>
+                    <div className="small-text assistant circle-text" style={{textAlign: 'center',color: 'rgb(225, 218, 207)', padding: 0, marginTop: 15}}>dd0sxx</div>
+                    <div className="small-text abel circle-text" style={{textAlign: 'center',fontSize: 16, marginTop: 10, padding: 0, paddingBottom: 5}}>Dev</div>
                 </a>
                 <a href="https://twitter.com/logan_larkin" target='_blank' style={{textDecoration: 'none'}}>
-                    <div className='background-center' style={{backgroundImage: `url("${Logan}")`, height: 150, width: 150, borderRadius: '50%'}}/>
-                    <div className="small-text assistant" style={{textAlign: 'center',color: 'rgb(225, 218, 207)', width: 150, padding: 0, marginTop: 15}}>Logan</div>
-                    <div className="small-text abel" style={{textAlign: 'center',fontSize: 16, marginTop: 10, width: 150, padding: 0, paddingBottom: 5}}>Wizard</div>
+                    <div className='background-center circle' style={{backgroundImage: `url("${Logan}")`, borderRadius: '50%'}}/>
+                    <div className="small-text assistant circle-text" style={{textAlign: 'center',color: 'rgb(225, 218, 207)', padding: 0, marginTop: 15}}>Logan</div>
+                    <div className="small-text abel circle-text" style={{textAlign: 'center',fontSize: 16, marginTop: 10, padding: 0, paddingBottom: 5}}>Wizard</div>
                 </a>
                 <a href="https://twitter.com/hackerdao_" target='_blank' style={{textDecoration: 'none'}}>
-                    <div className='background-center' style={{backgroundImage: `url("${Shipyard}")`, height: 150, width: 150, borderRadius: '50%'}}/>
-                    <div className="small-text assistant" style={{textAlign: 'center',color: 'rgb(225, 218, 207)', width: 150, padding: 0, marginTop: 15}}>Shipyard DAO</div>
-                    <div className="small-text abel" style={{textAlign: 'center',fontSize: 16, marginTop: 10, width: 150, padding: 0, paddingBottom: 5}}>Parent</div>
+                    <div className='background-center circle' style={{backgroundImage: `url("${Shipyard}")`, borderRadius: '50%'}}/>
+                    <div className="small-text assistant circle-text" style={{textAlign: 'center',color: 'rgb(225, 218, 207)', padding: 0, marginTop: 15}}>Shipyard DAO</div>
+                    <div className="small-text abel circle-text" style={{textAlign: 'center',fontSize: 16, marginTop: 10, padding: 0, paddingBottom: 5}}>Parent</div>
                 </a>
             </div>
         </div>
