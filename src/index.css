@@ -4,9 +4,11 @@ body {
     width: 100vw;
     overflow-x: hidden;
     background-color: #000000;
+    margin: 0px;
 }
 
 .App {
+    overflow-x: hidden;
     margin-top: -1vh;
     margin-left: -1vh;
     background: linear-gradient(180deg, rgb(246, 255, 255) 0%, rgba(176,253,255,1) 5%, rgba(0,243,255,1) 26%, rgba(0,119,255,1) 26%, rgb(0, 0, 0) 100%);
@@ -235,6 +237,10 @@ p {
     font-size: 16px;
 }
 
+.circle-flex {
+    width: 60vw;
+}
+
 .colab-link {
     height: 25px;
     width: 25px;
@@ -376,7 +382,7 @@ p {
     }
 
     .banner {
-        margin-top: 0vh;
+        /* margin-top: 0vh; */
     }
 
     .Boat {
@@ -398,6 +404,14 @@ p {
     .colab-link {
         height: 12px;
         width: 12px;
+    }
+
+    .circle-flex {
+        width: 80vw;
+    }
+
+    .about {
+        margin-top: 0vh;
     }
 
 }

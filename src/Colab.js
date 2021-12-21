@@ -15,7 +15,7 @@ function Colab () {
     return (
         <div className="colab">
             <div className="medium-text assistant">Projects we have shipped: </div>
-            <div className="flex" style={{width: '60vw', margin: 'auto', paddingTop: '5vh'}}>
+            <div className="flex circle-flex" style={{margin: 'auto', paddingTop: '5vh'}}>
             {collaborations.map(item => (
                 <div style={{alignItems: 'center', display: 'flex', flexDirection: 'column'}}>
                     <div className='background-center circle' style={{backgroundImage: `url("${item.img}")`, borderRadius: '50%'}}/>

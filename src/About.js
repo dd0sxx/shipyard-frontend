@@ -9,7 +9,7 @@ function About () {
             <div className="big-text assistant">Shipyard Studios</div>
             <div className="small-text abel">We work with creators of all mediums and enable them to take control of their intellectual property by giving them true ownership of their creations. Whether you are a musician, visual artist, film-maker, or brand we give you the tools + strategy you need to begin creating in web3.</div>
             <div className="medium-text assistant">The Team:</div>
-            <div className="flex" style={{width: '60vw', margin: 'auto', padding: '5vh'}}>
+            <div className="flex circle-flex" style={{margin: 'auto', padding: '5vh'}}>
 
                 <a href="https://twitter.com/dd0sxx" target='_blank' style={{textDecoration: 'none'}}>
                     <div className='background-center circle' style={{backgroundImage: `url("${dd0sxx}")`, borderRadius: '50%'}}/>
