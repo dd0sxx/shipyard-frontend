@@ -3,12 +3,18 @@ body {
     height: 320vh;
     width: 100vw;
     overflow-x: hidden;
+    background-color: black;
+}
+
+.App {
+    margin-top: -1vh;
+    margin-left: -1vh;
     background: linear-gradient(180deg, rgb(246, 255, 255) 0%, rgba(176,253,255,1) 5%, rgba(0,243,255,1) 26%, rgba(0,119,255,1) 26%, rgb(0, 0, 0) 100%);
     background-color: black;
 }
 
-.app {
-    background-color: black;
+.landing {
+    margin-top: -10vh;
 }
 
 h1 {
@@ -25,6 +31,13 @@ p {
 
 .banner {
     margin-top: 10vh;
+}
+
+.call-to-action {
+    margin-top: 20vh;
+    color: rgb(225, 218, 207);
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .about {
@@ -131,11 +144,15 @@ p {
 }
 
 .footer {
-    margin-top: 5vh;
+    margin-top: 10vh;
     width: 100vw;
     height: 15vh;
     display: flex;
     justify-content: space-around;
+    
+}
+
+.footer * {
     filter: invert(1);
 }
 
@@ -184,3 +201,14 @@ p {
 .abel {
     font-family: 'abel';
 }
+
+.return-to-top {
+    left: 90vw;
+}
+
+@media (max-width : 1450px) and (min-width : 1110px) {
+    .return-to-top {
+        text-align: right;
+    }
+}
+    

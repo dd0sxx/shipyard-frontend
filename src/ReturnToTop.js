@@ -15,7 +15,7 @@ function ReturnToTop ({rttColor, setRttColor}) {
         width: '200px',
         position: 'sticky',
         top: '90vh',
-        left: '90vw',
+        // left: '90vw', in css file for media query
         fontFamily: 'quicksand',
         transition: '1s',
         color: rttColor,

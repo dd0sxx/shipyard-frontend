@@ -2,6 +2,7 @@ import {useState, useEffect} from 'react'
 import Nav from './Nav'
 import Boat from './Boat'
 import ReturnToTop from './ReturnToTop'
+import CallToAction from './CallToAction'
 import Banner from './Banner'
 import Create from './Create'
 import About from './About'
@@ -28,6 +29,7 @@ function App() {
       <div className='landing'>
         <Nav></Nav>
         <Banner></Banner>
+        {/* <CallToAction></CallToAction> */}
       </div>
       <Create></Create>
       <About></About>
