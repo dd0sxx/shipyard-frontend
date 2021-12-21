@@ -2,13 +2,11 @@ body {
     background: rgb(176,253,255);
     height: 320vh;
     width: 100vw;
-    overflow-x: hidden;
     background-color: #000000;
     margin: 0px;
 }
 
 .App {
-    overflow-x: hidden;
     margin-top: -1vh;
     margin-left: -1vh;
     background: linear-gradient(180deg, rgb(246, 255, 255) 0%, rgba(176,253,255,1) 5%, rgba(0,243,255,1) 26%, rgba(0,119,255,1) 26%, rgb(0, 0, 0) 100%);
@@ -17,6 +15,7 @@ body {
 
 .Nav {
     padding: 5vh 10vw;
+    margin-top: 5vh;
 }
 
 .landing {
@@ -261,8 +260,7 @@ p {
 
 @media (max-width : 1450px) and (min-width : 1110px) {
     .return-to-top {
-        text-align: right;
-        
+        text-align: right;  
     }
     .Boat {
         top: 63%;
