@@ -3,7 +3,7 @@ body {
     height: 320vh;
     width: 100vw;
     overflow-x: hidden;
-    background-color: black;
+    background-color: #000000;
 }
 
 .App {
@@ -11,6 +11,10 @@ body {
     margin-left: -1vh;
     background: linear-gradient(180deg, rgb(246, 255, 255) 0%, rgba(176,253,255,1) 5%, rgba(0,243,255,1) 26%, rgba(0,119,255,1) 26%, rgb(0, 0, 0) 100%);
     background-color: black;
+}
+
+.Nav {
+    padding: 5vh 10vw;
 }
 
 .landing {
@@ -243,7 +247,8 @@ p {
 .Boat {
     height: 30vh;
     width: 30vw;
-    top: 65vh;
+    min-width: 250px;
+    top: 62%;
     left: 35vw;
 }
 
@@ -251,12 +256,20 @@ p {
 @media (max-width : 1450px) and (min-width : 1110px) {
     .return-to-top {
         text-align: right;
+        
+    }
+    .Boat {
+        top: 63%;
     }
 }
 
 @media (max-width : 1110px) {
     body {
         background: linear-gradient(180deg, rgb(246, 255, 255) 0%, rgba(176,253,255,1) 5%, rgba(0,243,255,1) 26%, rgba(0,119,255,1) 26%, rgb(0, 0, 0) 100%);
+    }
+
+    .Boat {
+        top: 65%;
     }
 
     .App {
@@ -266,6 +279,16 @@ p {
     .big-text {
         line-height: 100%;
         font-size: 100px;
+    }
+
+    .Nav {
+        margin-top: 5vh;
+    }
+
+    .App {
+        margin-top: 0;
+        margin-left: 0vh;
+        width: 100vw;
     }
 }
 
@@ -293,14 +316,25 @@ p {
         margin-top: 5vh;
     }
 
+    .Nav {
+        margin-top: 10vh;
+        width: 100vw;
+    }
+
+    .App {
+        margin-top: 0;
+        margin-left: 0vh;
+        width: 100vw;
+    }
+
 }
 
 @media (max-width : 581px) {
 
     .App {
-        margin-top: 0vh;
+        margin-top: 0;
         margin-left: 0vh;
-        width: 110vw;
+        width: 100vw;
     }
 
     body {
@@ -308,7 +342,9 @@ p {
     }
 
     .Nav {
+        margin-top: 10vh;
         width: 100vw;
+        padding: 2vh 2vw;
     }
 
     .right-nav {
@@ -322,14 +358,18 @@ p {
         line-height: 100%;
         font-size: 45px;
         width: 100vw;
+        padding: 20px 5vw;
     }
 
     .medium-text {
-        
+        line-height: 100%;
+        font-size: 28px;
+        width: 100vw;
+        padding: 20px 5vw;
     }
 
     .small-text {   
-        padding: 0px 11vw;
+        padding: 0px 6vw;
         font-size: 14px;
         width: 66vw;
         margin: 0;
@@ -343,7 +383,6 @@ p {
         height: 60vh;
         width: 60vw;
         top: 50vh;
-        left: 50vw;
     }
 
     .circle {

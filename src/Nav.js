@@ -10,7 +10,7 @@ function Nav() {
     let Link = Scroll.Link;
 
   return (
-    <div className="Nav" style={{display: 'flex', justifyContent: 'space-between', padding: '5vh 10vw'}}>
+    <div className="Nav" style={{display: 'flex', justifyContent: 'space-between'}}>
       <Logo></Logo>
       <div className='right-nav' style={{display: 'flex', alignItems: 'center'}}>
         <Link to='create' smooth={true} duration={1000} className='pointer nav-hover nav-text' >Create</Link>
