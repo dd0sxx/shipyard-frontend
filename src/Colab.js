@@ -20,10 +20,10 @@ function Colab () {
                 <div style={{alignItems: 'center', display: 'flex', flexDirection: 'column'}}>
                     <div className='background-center circle' style={{backgroundImage: `url("${item.img}")`, borderRadius: '50%'}}/>
                     <div className="small-text assistant circle-text" style={{textAlign: 'center',color: 'rgb(225, 218, 207)', marginTop: 15, padding: 0}}>{item.name}</div>
-                    <div className="small-text abel circle-text" style={{textAlign: 'center',fontSize: 16, marginTop: 10, padding: 0, paddingBottom: 5}}>by {item.creator}</div>
+                    <div className="small-text abel circle-text" style={{textAlign: 'center', marginTop: 10, padding: 0, paddingBottom: 5}}>by {item.creator}</div>
                     <div className='flex'>
-                        <a href={item.etherscan} target='_blank' className='background-center' style={{backgroundImage: `url("${Etherscan}")`, height: 25, width: 25, margin: 10}}/>
-                        <a href={item.twitter} target='_blank' className='background-center' style={{backgroundImage: `url("${Twitter}")`, height: 25, width: 25, margin: 10}}/>
+                        <a href={item.etherscan} target='_blank' className='background-center colab-link' style={{backgroundImage: `url("${Etherscan}")`, margin: 10}}/>
+                        <a href={item.twitter} target='_blank' className='background-center colab-link' style={{backgroundImage: `url("${Twitter}")`, margin: 10}}/>
                     </div>
                 </div>
             ))}
