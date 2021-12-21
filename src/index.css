@@ -299,6 +299,7 @@ p {
     .footer  {
         width: 90vw;
         margin: auto;
+        margin-top: 10vh;
     }
     
     .big-text {
