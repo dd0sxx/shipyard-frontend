@@ -383,14 +383,14 @@ p {
         line-height: 100%;
         font-size: 45px;
         width: 90vw;
-        padding: 20px 5vw;
+        padding: 20px 0vw;
     }
 
     .medium-text {
         line-height: 100%;
         font-size: 28px;
         width: 90vw;
-        padding: 20px 5vw;
+        padding: 40px 0vw;
     }
 
     .small-text {   
