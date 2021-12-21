@@ -323,8 +323,10 @@ p {
     }
 
     .Nav {
+        margin: auto;
         margin-top: 10vh;
-        width: 100vw;
+        width: 90vw;
+        padding: 2vh 2vw;
     }
 
     .App {
@@ -348,8 +350,9 @@ p {
     }
 
     .Nav {
+        margin: auto;
         margin-top: 10vh;
-        width: 100vw;
+        width: 90vw;
         padding: 2vh 2vw;
     }
 
