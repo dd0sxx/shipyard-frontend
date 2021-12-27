@@ -14,10 +14,12 @@ function App() {
 
   const [rttColor, setRttColor] = useState('transparent')
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+  const [bodyHeight, setBodyHeight] = useState(document.body.clientHeight)
 
   useEffect(() => {
     window.addEventListener('resize', function(event){
       setWindowWidth(window.innerWidth)
+      setBodyHeight(document.body.clientHeight)
     });
     console.log(windowWidth)
     window.onscroll = () => {
@@ -26,22 +28,24 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <Boat></Boat> 
-      {windowWidth > 581 ?
-      <ReturnToTop rttColor={rttColor} setRttColor={setRttColor}></ReturnToTop>
-      : <></>
-    }
-      {/* everything below is not absolutely positioned */}
-      <div className='landing'>
-        <Nav></Nav>
-        <Banner></Banner>
-        {/* <CallToAction></CallToAction> */}
+    <>
+      <Boat bodyHeight={bodyHeight}></Boat> 
+      <div className="App">
+        {windowWidth > 581 ?
+        <ReturnToTop rttColor={rttColor} setRttColor={setRttColor}></ReturnToTop>
+        : <></>
+      }
+        {/* everything below is not absolutely positioned */}
+        <div className='landing'>
+          <Nav></Nav>
+          <Banner></Banner>
+          {/* <CallToAction></CallToAction> */}
+        </div>
+        <Create></Create>
+        <About></About>
+        <Footer></Footer>
       </div>
-      <Create></Create>
-      <About></About>
-      <Footer></Footer>
-    </div>
+    </>
   );
 }
 

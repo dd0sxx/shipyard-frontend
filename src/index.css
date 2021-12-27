@@ -4,13 +4,13 @@ body {
     width: 100vw;
     background-color: #000000;
     margin: 0px;
+    background: linear-gradient(180deg, rgb(246, 255, 255) 0%, rgba(176,253,255,1) 5%, rgba(0,243,255,1) 26%, rgba(0,119,255,1) 26%, rgb(0, 0, 0) 100%);
+    background-color: black;
 }
 
 .App {
     margin-top: -1vh;
     margin-left: -1vh;
-    background: linear-gradient(180deg, rgb(246, 255, 255) 0%, rgba(176,253,255,1) 5%, rgba(0,243,255,1) 26%, rgba(0,119,255,1) 26%, rgb(0, 0, 0) 100%);
-    background-color: black;
 }
 
 .Nav {
@@ -31,7 +31,7 @@ p {
 }
 
 .banner {
-    margin-top: 10vh;
+    margin-top: 2vh;
 }
 
 .call-to-action {
@@ -247,11 +247,11 @@ p {
 }
 
 .Boat {
-    height: 30vh;
-    width: 30vw;
+    height: 200px;
+    width: 200px;
     min-width: 250px;
-    top: 62%;
-    left: 35vw;
+    top: 26%;
+    left: 45%;
 }
 
 
@@ -260,19 +260,9 @@ p {
     .return-to-top {
         text-align: right;  
     }
-    .Boat {
-        top: 63%;
-    }
 }
 
 @media only screen and (max-width : 1110px) {
-    body {
-        background: linear-gradient(180deg, rgb(246, 255, 255) 0%, rgba(176,253,255,1) 5%, rgba(0,243,255,1) 26%, rgba(0,119,255,1) 26%, rgb(0, 0, 0) 100%);
-    }
-
-    .Boat {
-        top: 65%;
-    }
 
     .App {
         background: none;
@@ -311,10 +301,14 @@ p {
         margin-top: 5vh;
     }
 
-    .App {
+    /* .App {
         margin-top: 0;
         margin-left: 0vh;
         width: 100vw;
+    } */
+
+    .return-to-top {
+        text-align: right;  
     }
 }
 
@@ -345,25 +339,25 @@ p {
         padding: 2vh 2vw;
     }
 
-    .App {
+    /* .App {
         margin-top: 0;
         margin-left: 0vh;
         width: 100vw;
-    }
+    } */
 
 }
 
 @media only screen and (max-width : 581px) {
 
-    .App {
+    /* .App {
         margin-top: 0;
         margin-left: 0vh;
         width: 100vw;
-    }
+    } */
 
-    body {
-        background: linear-gradient(180deg, rgb(246, 255, 255) 0%, rgba(176,253,255,1) 5%, rgba(0,243,255,1) 26.4%, rgba(0,119,255,1) 26.4%, rgb(0, 0, 0) 100%);
-    }
+    /* body {
+        background: linear-gradient(180deg, rgb(246, 255, 255) 0%, rgba(176,253,255,1) 5%, rgba(0,243,255,1) 26%, rgba(0,119,255,1) 26%, rgb(0, 0, 0) 100%);
+    } */
 
     .Nav {
         margin: auto;
@@ -404,11 +398,11 @@ p {
         /* margin-top: 0vh; */
     }
 
-    .Boat {
+    /* .Boat {
         height: 60vh;
         width: 60vw;
         top: 51vh;
-    }
+    } */
 
     .circle {
         height: 75px;
