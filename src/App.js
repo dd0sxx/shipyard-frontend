@@ -7,14 +7,15 @@ import Banner from './Banner'
 import Create from './Create'
 import About from './About'
 import Footer from './Footer'
+import Modal from './Modal'
 
 
 function App() {
 
-
   const [rttColor, setRttColor] = useState('transparent')
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
   const [bodyHeight, setBodyHeight] = useState(document.body.clientHeight)
+  const [renderModal, setRenderModal] = useState(false)
 
   useEffect(() => {
     window.addEventListener('resize', function(event){
@@ -29,6 +30,11 @@ function App() {
 
   return (
     <>
+      {renderModal ? 
+        <Modal setRenderModal={setRenderModal} renderModal={renderModal}></Modal>
+      : 
+        <></>
+      }
       <Boat bodyHeight={bodyHeight}></Boat> 
       <div className="App">
         {windowWidth > 581 ?
@@ -37,7 +43,7 @@ function App() {
       }
         {/* everything below is not absolutely positioned */}
         <div className='landing'>
-          <Nav></Nav>
+          <Nav windowWidth={windowWidth} setRenderModal={setRenderModal} renderModal={renderModal}></Nav>
           <Banner></Banner>
           {/* <CallToAction></CallToAction> */}
         </div>
