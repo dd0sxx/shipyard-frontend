@@ -1,11 +1,10 @@
 import React from 'react'
-import BoatGif from './assets/shipyard-gif2.gif'
+import BoatGif from './assets/boat.gif'
 function Boat () {
 
   return (
     <div className="Boat background-center" style={{
       backgroundImage: `url("${BoatGif}")`,
-      transform: 'scaleX(-1)',
       position: 'absolute',
     }}></div>
   );
