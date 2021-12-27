@@ -398,11 +398,12 @@ p {
         /* margin-top: 0vh; */
     }
 
-    /* .Boat {
-        height: 60vh;
-        width: 60vw;
-        top: 51vh;
-    } */
+    .Boat {
+        height: 175px;
+        width: 175px;
+        left: 30%;
+        margin-top: 29px;
+    }
 
     .circle {
         height: 75px;
