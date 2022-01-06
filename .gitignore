@@ -6,6 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+.vscode
+
 .shipyardstudio_xyz.csr.swp
 shipyardstudio_xyz.csr
 shipyardstudio_xyz.key

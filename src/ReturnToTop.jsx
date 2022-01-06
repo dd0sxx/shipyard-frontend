@@ -1,16 +1,18 @@
 import * as Scroll from 'react-scroll';
+import React from 'react';
 
-function ReturnToTop ({rttColor, setRttColor}) {
+function ReturnToTop({ rttColor, setRttColor }) {
+  const scroll = Scroll.animateScroll;
 
-    var scroll    = Scroll.animateScroll;
-    
-    const handleClick = () => {
-        setRttColor('transparent')
-        scroll.scrollToTop()
-    }
+  const handleClick = () => {
+    setRttColor('transparent');
+    scroll.scrollToTop();
+  };
 
-    return (
-        <div  className="return-to-top" style={{
+  return (
+    <div
+      className="return-to-top"
+      style={{
         height: '20px',
         width: '200px',
         position: 'sticky',
@@ -22,10 +24,12 @@ function ReturnToTop ({rttColor, setRttColor}) {
         cursor: 'pointer',
         padding: 20,
         zIndex: 99
-        }}
-        onClick={handleClick}
-        >Return To Top ↑ </div>
-    );
+      }}
+      onClick={handleClick}
+    >
+      Return To Top ↑{' '}
+    </div>
+  );
 }
 
 export default ReturnToTop;

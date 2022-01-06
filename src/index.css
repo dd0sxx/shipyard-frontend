@@ -1,448 +1,447 @@
 body {
-    background: rgb(176,253,255);
-    height: 320vh;
-    width: 100vw;
-    background-color: #000000;
-    margin: 0px;
-    background: linear-gradient(180deg, rgb(246, 255, 255) 0%, rgba(176,253,255,1) 5%, rgba(0,243,255,1) 26%, rgba(0,119,255,1) 26%, rgb(0, 0, 0) 100%);
-    background-color: black;
+  background: rgb(176, 253, 255);
+  height: 320vh;
+  width: 100vw;
+  background-color: #000000;
+  margin: 0px;
+  background: linear-gradient(
+    180deg,
+    rgb(246, 255, 255) 0%,
+    rgba(176, 253, 255, 1) 5%,
+    rgba(0, 243, 255, 1) 26%,
+    rgba(0, 119, 255, 1) 26%,
+    rgb(0, 0, 0) 100%
+  );
+  background-color: black;
 }
 
 .App {
-    margin-top: -1vh;
-    margin-left: -1vh;
+  margin-top: -1vh;
+  margin-left: -1vh;
 }
 
 .Nav {
-    padding: 5vh 10vw;
+  padding: 5vh 10vw;
 }
 
-
 h1 {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 h2 {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 p {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .banner {
-    margin-top: 2vh;
+  margin-top: 2vh;
 }
 
 .call-to-action {
-    margin-top: 20vh;
-    color: rgb(225, 218, 207);
-    text-decoration: underline;
-    cursor: pointer;
+  margin-top: 20vh;
+  color: rgb(225, 218, 207);
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .about {
-    margin-top: 10vh;
+  margin-top: 10vh;
 }
 
 .nav-hover:hover {
-    border-bottom: 1px solid rgb(42, 43, 45);
-    transition: 0.3s;
+  border-bottom: 1px solid rgb(42, 43, 45);
+  transition: 0.3s;
 }
 
-.nav-hover{
-    border-bottom: 1px solid transparent;
-    transition: 0.3s;
+.nav-hover {
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
 }
-
 
 .background-center {
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .round-button {
-    border-radius: 15px;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+  border-radius: 15px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 .round-button:hover {
-    cursor: pointer;
-    
+  cursor: pointer;
 }
 
-.expand-hover{
-    transition: 0.3s;
-    background-color: #060078db;
-    width: 75px;
+.expand-hover {
+  transition: 0.3s;
+  background-color: #060078db;
+  width: 75px;
 }
 
 .expand-hover:hover {
-    transition: 0.3s;
-    background-color: #060078;
-    width: 90px;
-    margin-right: -7.5px;
+  transition: 0.3s;
+  background-color: #060078;
+  width: 90px;
+  margin-right: -7.5px;
 }
 
 .pointer:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .landing {
-    height: 100vh;
-    width: 100vw;
-    margin-top: -7vh;
+  height: 100vh;
+  width: 100vw;
+  margin-top: -7vh;
 }
 
 .create {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.small-text {   
-    padding: 20px 11vw; 
-    text-align: center;
-    font-size: 20px;
-    font-weight: lighter;
-    text-align: left;
-    color: rgb(184, 177, 168);
-    width: 50vw
+.small-text {
+  padding: 20px 11vw;
+  text-align: center;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: left;
+  color: rgb(184, 177, 168);
+  width: 50vw;
 }
 
 .big-text {
-    padding: 20px 10vw; 
-    text-align: left;
-    line-height: 89%;
-    font-size: 132px;
-    letter-spacing: -2px;
-    font-weight: 800;
-    color: rgb(225, 218, 207);
+  padding: 20px 10vw;
+  text-align: left;
+  line-height: 89%;
+  font-size: 132px;
+  letter-spacing: -2px;
+  font-weight: 800;
+  color: rgb(225, 218, 207);
 }
 
 .medium-text {
-    padding: 20px 10vw; 
-    text-align: left;
-    line-height: 89%;
-    font-size: 36px;
-    letter-spacing: -2px;
-    font-weight: 500;
-    color: rgb(225, 218, 207);
+  padding: 20px 10vw;
+  text-align: left;
+  line-height: 89%;
+  font-size: 36px;
+  letter-spacing: -2px;
+  font-weight: 500;
+  color: rgb(225, 218, 207);
 }
 
 .colab {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 .flex {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer {
-    margin-top: 10vh;
-    width: 100vw;
-    height: 15vh;
-    display: flex;
-    justify-content: space-around;
-    
+  margin-top: 10vh;
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
 }
 
 .footer * {
-    filter: invert(1);
+  filter: invert(1);
 }
 
 .modal {
-    transition: 0.5s;
-    position: absolute;
-    z-index: 9999;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(180deg, rgb(246, 255, 255,1) 0%, rgba(176,253,255,1) 5%, rgba(0,243,255,1) 100%);
+  transition: 0.5s;
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgb(246, 255, 255, 1) 0%,
+    rgba(176, 253, 255, 1) 5%,
+    rgba(0, 243, 255, 1) 100%
+  );
 }
 
 .modal-text {
-    margin: auto;
-        font-size: 32;
-        font-family: 'quicksand';
-        text-align: center;
-        font-weight: 600;
-        color: rgb(42, 43, 45);
+  margin: auto;
+  font-size: 32;
+  font-family: 'quicksand';
+  text-align: center;
+  font-weight: 600;
+  color: rgb(42, 43, 45);
 }
 
 @font-face {
-    font-family: "nunito";
-    src: url('./assets/Nunito_Sans/NunitoSans-Regular.ttf');
+  font-family: 'nunito';
+  src: url('./assets/Nunito_Sans/NunitoSans-Regular.ttf');
 }
 
 @font-face {
-    font-family: "quicksand";
-    src: url('./assets/Quicksand/Quicksand-VariableFont_wght.ttf');
+  font-family: 'quicksand';
+  src: url('./assets/Quicksand/Quicksand-VariableFont_wght.ttf');
 }
 
 @font-face {
-    font-family: "dosis";
-    src: url('./assets/Dosis/Dosis-VariableFont_wght.ttf');
+  font-family: 'dosis';
+  src: url('./assets/Dosis/Dosis-VariableFont_wght.ttf');
 }
 
 @font-face {
-    font-family: "assistant";
-    src: url('./assets/Assistant/Assistant-VariableFont_wght.ttf');
+  font-family: 'assistant';
+  src: url('./assets/Assistant/Assistant-VariableFont_wght.ttf');
 }
 
 @font-face {
-    font-family: "abel";
-    src: url('./assets/Abel/Abel-Regular.ttf');
+  font-family: 'abel';
+  src: url('./assets/Abel/Abel-Regular.ttf');
 }
 
 .nunito {
-    font-family: 'nunito';
+  font-family: 'nunito';
 }
 
 .quicksand {
-    font-family: 'quicksand';
+  font-family: 'quicksand';
 }
 
 .dosis {
-    font-family: 'dosis';
+  font-family: 'dosis';
 }
 
 .assistant {
-    font-family: 'assistant';
+  font-family: 'assistant';
 }
 
 .abel {
-    font-family: 'abel';
+  font-family: 'abel';
 }
 
 .return-to-top {
-    left: 90vw;
+  left: 90vw;
 }
 
 .Logo {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 .nav-text {
-        margin: 10;
-        font-size: 16;
-        font-family: 'quicksand';
-        text-align: center;
-        font-weight: 300;
-        text-decoration: none;
-        padding: 0px 10px;
-        color: rgb(42, 43, 45)
+  margin: 10;
+  font-size: 16;
+  font-family: 'quicksand';
+  text-align: center;
+  font-weight: 300;
+  text-decoration: none;
+  padding: 0px 10px;
+  color: rgb(42, 43, 45);
 }
 
 .circle {
-    height: 150px;
-    width: 150px;
+  height: 150px;
+  width: 150px;
 }
 
 .circle-text {
-    width: 150px;
-    font-size: 16px;
+  width: 150px;
+  font-size: 16px;
 }
 
 .circle-flex {
-    width: 60vw;
+  width: 60vw;
 }
 
 .colab-link {
-    height: 25px;
-    width: 25px;
+  height: 25px;
+  width: 25px;
 }
 
 .banner-text {
-    width: '33vw'
+  width: '33vw';
 }
 
 .Boat {
-    height: 200px;
-    width: 200px;
-    min-width: 250px;
-    top: 26%;
-    left: 45%;
+  height: 200px;
+  width: 200px;
+  min-width: 250px;
+  top: 26%;
+  left: 45%;
 }
 
-
-@media only screen and (max-width : 1450px) and (min-width : 1110px) {
-
-    .return-to-top {
-        text-align: right;  
-    }
+@media only screen and (max-width: 1450px) and (min-width: 1110px) {
+  .return-to-top {
+    text-align: right;
+  }
 }
 
-@media only screen and (max-width : 1110px) {
+@media only screen and (max-width: 1110px) {
+  .App {
+    background: none;
+  }
 
-    .App {
-        background: none;
-    } 
+  .landing {
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+    margin-top: -7vh;
+  }
 
-    .landing {
-        height: 90vh;
-        width: 90vw;
-        margin: auto;
-        margin-top: -7vh;
-    }
+  .create {
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+  }
 
-    .create {
-        height: 90vh;
-        width: 90vw;
-        margin: auto;
-    }
+  .about {
+    width: 90vw;
+    margin: auto;
+  }
 
-    .about {
-        width: 90vw;
-        margin: auto;
-    }
+  .footer {
+    width: 90vw;
+    margin: auto;
+    margin-top: 10vh;
+  }
 
-    .footer  {
-        width: 90vw;
-        margin: auto;
-        margin-top: 10vh;
-    }
-    
-    .big-text {
-        line-height: 100%;
-        font-size: 100px;
-    }
+  .big-text {
+    line-height: 100%;
+    font-size: 100px;
+  }
 
-    .Nav {
-        margin-top: 5vh;
-    }
+  .Nav {
+    margin-top: 5vh;
+  }
 
-    /* .App {
+  /* .App {
         margin-top: 0;
         margin-left: 0vh;
         width: 100vw;
     } */
 
-    .return-to-top {
-        text-align: right;  
-    }
+  .return-to-top {
+    text-align: right;
+  }
 }
 
-@media only screen and (max-width : 935px) {
+@media only screen and (max-width: 935px) {
+  .big-text {
+    line-height: 100%;
+    font-size: 72px;
+  }
 
-    .big-text {
-        line-height: 100%;
-        font-size: 72px;
-    }
+  .circle {
+    height: 100px;
+    width: 100px;
+  }
 
-    .circle {
-        height: 100px;
-        width: 100px;
-    }
-    
-    .circle-text {
-        width: 100px;
-    }
+  .circle-text {
+    width: 100px;
+  }
 
-    .banner {
-        margin-top: 5vh;
-    }
+  .banner {
+    margin-top: 5vh;
+  }
 
-    .Nav {
-        margin: auto;
-        margin-top: 10vh;
-        width: 90vw;
-        padding: 2vh 2vw;
-    }
+  .Nav {
+    margin: auto;
+    margin-top: 10vh;
+    width: 90vw;
+    padding: 2vh 2vw;
+  }
 
-    /* .App {
+  /* .App {
+        margin-top: 0;
+        margin-left: 0vh;
+        width: 100vw;
+    } */
+}
+
+@media only screen and (max-width: 581px) {
+  /* .App {
         margin-top: 0;
         margin-left: 0vh;
         width: 100vw;
     } */
 
-}
-
-@media only screen and (max-width : 581px) {
-
-    /* .App {
-        margin-top: 0;
-        margin-left: 0vh;
-        width: 100vw;
-    } */
-
-    /* body {
+  /* body {
         background: linear-gradient(180deg, rgb(246, 255, 255) 0%, rgba(176,253,255,1) 5%, rgba(0,243,255,1) 26%, rgba(0,119,255,1) 26%, rgb(0, 0, 0) 100%);
     } */
 
-    .hamburger {
-        margin: auto;
-        width: 10vw;
-        padding: 2vh 2vw;
-    }
+  .hamburger {
+    margin: auto;
+    width: 10vw;
+    padding: 2vh 2vw;
+  }
 
-    .right-nav {
-        flex-wrap: wrap;
-        max-width: 45vw;
-        justify-content:center;
-        align-items: center;
-    }
+  .right-nav {
+    flex-wrap: wrap;
+    max-width: 45vw;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .big-text {
-        line-height: 100%;
-        font-size: 45px;
-        width: 90vw;
-        padding: 20px 0vw;
-    }
+  .big-text {
+    line-height: 100%;
+    font-size: 45px;
+    width: 90vw;
+    padding: 20px 0vw;
+  }
 
-    .medium-text {
-        line-height: 100%;
-        font-size: 28px;
-        width: 90vw;
-        padding: 40px 0vw;
-    }
+  .medium-text {
+    line-height: 100%;
+    font-size: 28px;
+    width: 90vw;
+    padding: 40px 0vw;
+  }
 
-    .small-text {   
-        padding: 0px 6vw;
-        font-size: 14px;
-        width: 66vw;
-        margin: 0;
-    }
+  .small-text {
+    padding: 0px 6vw;
+    font-size: 14px;
+    width: 66vw;
+    margin: 0;
+  }
 
-    .banner {
-        /* margin-top: 0vh; */
-    }
+  .banner {
+    /* margin-top: 0vh; */
+  }
 
-    .Boat {
-        height: 175px;
-        width: 175px;
-        left: 30%;
-        margin-top: 29px;
-    }
+  .Boat {
+    height: 175px;
+    width: 175px;
+    left: 30%;
+    margin-top: 29px;
+  }
 
-    .circle {
-        height: 75px;
-        width: 75px;
-    }
-    
-    .circle-text {
-        width: 75px;
-        font-size: 12px;
-    }
+  .circle {
+    height: 75px;
+    width: 75px;
+  }
 
-    .colab-link {
-        height: 12px;
-        width: 12px;
-    }
+  .circle-text {
+    width: 75px;
+    font-size: 12px;
+  }
 
-    .circle-flex {
-        width: 80vw;
-    }
+  .colab-link {
+    height: 12px;
+    width: 12px;
+  }
 
-    .about {
-        margin-top: 0vh;
-    }
+  .circle-flex {
+    width: 80vw;
+  }
 
+  .about {
+    margin-top: 0vh;
+  }
 }
-    
