@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4abc9daf.css",
-    "main.js": "/static/js/main.3dba7ae5.js",
+    "main.css": "/static/css/main.86b4b48c.css",
+    "main.js": "/static/js/main.d734c746.js",
     "static/media/oilys.png": "/static/media/oilys.6693a8848dbb1ccf5f55.png",
     "static/media/NunitoSans-Regular.ttf": "/static/media/NunitoSans-Regular.25d5a42e25da2f3ed7f4.ttf",
     "static/media/Quicksand-VariableFont_wght.ttf": "/static/media/Quicksand-VariableFont_wght.92e1d0f3321b53e20d2b.ttf",
@@ -9,7 +9,7 @@
     "static/media/discord.png": "/static/media/discord.d6120e2411413378177f.png",
     "static/media/twitter.png": "/static/media/twitter.b858ce04a64972fba90c.png",
     "static/media/Assistant-VariableFont_wght.ttf": "/static/media/Assistant-VariableFont_wght.8260db3b313ce1ff6e7f.ttf",
-    "static/media/shipyard-gif2.gif": "/static/media/shipyard-gif2.0c6cc5b28eb9a12cdc87.gif",
+    "static/media/boat.gif": "/static/media/boat.a196e22a279dd984c645.gif",
     "static/media/Abel-Regular.ttf": "/static/media/Abel-Regular.3843f456cf56d275baf6.ttf",
     "static/media/rei.jpeg": "/static/media/rei.82735253fb70d9be02a0.jpeg",
     "static/media/creature.jpeg": "/static/media/creature.02dc700143e60f703687.jpeg",
@@ -19,8 +19,11 @@
     "static/media/etherscan-tan.png": "/static/media/etherscan-tan.999e34532600f6bf6cda.png",
     "static/media/shipyard.jpeg": "/static/media/shipyard.481f9812664f68bcb919.jpeg",
     "index.html": "/index.html",
-    "main.4abc9daf.css.map": "/static/css/main.4abc9daf.css.map",
-    "main.3dba7ae5.js.map": "/static/js/main.3dba7ae5.js.map"
+    "main.86b4b48c.css.map": "/static/css/main.86b4b48c.css.map",
+    "main.d734c746.js.map": "/static/js/main.d734c746.js.map"
   },
-  "entrypoints": ["static/css/main.4abc9daf.css", "static/js/main.3dba7ae5.js"]
+  "entrypoints": [
+    "static/css/main.86b4b48c.css",
+    "static/js/main.d734c746.js"
+  ]
 }
