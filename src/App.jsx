@@ -47,7 +47,6 @@ function App() {
             renderModal={renderModal}
            />
           <Banner />
-          {/* <CallToAction></CallToAction> */}
         </div>
         <Create />
         <About />
