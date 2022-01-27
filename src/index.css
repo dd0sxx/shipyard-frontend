@@ -13,6 +13,7 @@ body {
     rgb(0, 0, 0) 100%
   );
   background-color: black;
+  background-repeat: no-repeat;
 }
 
 .App {
@@ -38,6 +39,10 @@ p {
 
 .banner {
   margin-top: 2vh;
+}
+
+.banner * {
+  position: relative;
 }
 
 .call-to-action {
@@ -141,6 +146,10 @@ p {
 
 .colab {
   margin-top: 0px;
+}
+
+.colab * {
+  position: relative;
 }
 
 .flex {
@@ -267,7 +276,9 @@ p {
 }
 
 .banner-text {
-  width: '33vw';
+  
+  height: 10vh;
+  width: 33vw;
 }
 
 .Boat {
@@ -284,7 +295,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 1110px) {
+@media only screen and (max-width: 1110px), screen and (max-height: 700px) {
   .App {
     background: none;
   }
@@ -333,7 +344,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 935px) {
+@media only screen and (max-width: 935px), screen and (max-height: 630px) {
   .big-text {
     line-height: 100%;
     font-size: 72px;
