@@ -344,7 +344,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 935px), screen and (max-height: 630px) {
+@media only screen and (max-width: 935px), screen and (max-height: 850px) {
   .big-text {
     line-height: 100%;
     font-size: 72px;
@@ -377,7 +377,7 @@ p {
     } */
 }
 
-@media only screen and (max-width: 581px) {
+@media only screen and (max-width: 581px) , screen and (max-height: 700px) {
   /* .App {
         margin-top: 0;
         margin-left: 0vh;
@@ -405,7 +405,7 @@ p {
     line-height: 100%;
     font-size: 45px;
     width: 90vw;
-    padding: 20px 0vw;
+    padding: 20px 3vw;
   }
 
   .medium-text {
@@ -416,7 +416,7 @@ p {
   }
 
   .small-text {
-    padding: 0px 6vw;
+    padding: 0px 3vw;
     font-size: 14px;
     width: 66vw;
     margin: 0;
