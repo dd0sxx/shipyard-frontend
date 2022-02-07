@@ -51,7 +51,7 @@ function Nav({ windowWidth, renderModal, setRenderModal }) {
             style={{ backgroundImage: `url("${Discord}")`, height: 25, width: 25, margin: 10 }} rel="noreferrer"
           />
           <a
-            href="https://hackerdao.typeform.com/shipyardNFT"
+            href="https://shipyard.typeform.com/shipyardNFT"
             target="_blank"
             className="round-button expand-hover quicksand"
             style={{
